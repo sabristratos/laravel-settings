@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Observers;
+namespace Stratos\Settings\Observers;
 
 use Stratos\Settings\Events\UserSettingCreated;
 use Stratos\Settings\Events\UserSettingDeleted;

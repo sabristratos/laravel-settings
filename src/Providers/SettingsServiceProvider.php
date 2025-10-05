@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Providers;
+namespace Stratos\Settings\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;

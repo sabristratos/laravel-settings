@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Observers;
+namespace Stratos\Settings\Observers;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;

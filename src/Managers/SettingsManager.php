@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Managers;
+namespace Stratos\Settings\Managers;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;

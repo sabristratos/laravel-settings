@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Managers;
+namespace Stratos\Settings\Managers;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Collection;
