@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Tests;
+namespace Stratos\Settings\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 use Stratos\Settings\Providers\SettingsServiceProvider;
