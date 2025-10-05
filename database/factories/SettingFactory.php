@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Database\Factories;
+namespace Stratos\Settings\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Stratos\Settings\Models\Setting;
