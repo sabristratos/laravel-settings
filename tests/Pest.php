@@ -2,7 +2,7 @@
 
 use Strata\Settings\Tests\TestCase;
 
-uses(TestCase::class)->in('Feature', 'Unit');
+uses(TestCase::class)->in('Feature');
 
 /*
 |--------------------------------------------------------------------------
