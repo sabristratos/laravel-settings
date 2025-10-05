@@ -3,9 +3,9 @@
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Crypt;
-use Strata\Settings\Facades\Settings;
-use Strata\Settings\Models\Setting;
-use Strata\Settings\Models\UserSetting;
+use Stratos\Settings\Facades\Settings;
+use Stratos\Settings\Models\Setting;
+use Stratos\Settings\Models\UserSetting;
 
 uses(RefreshDatabase::class);
 

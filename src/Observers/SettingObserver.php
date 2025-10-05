@@ -5,11 +5,11 @@ namespace Strata\Settings\Observers;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Request;
-use Strata\Settings\Events\SettingCreated;
-use Strata\Settings\Events\SettingDeleted;
-use Strata\Settings\Events\SettingUpdated;
-use Strata\Settings\Models\Setting;
-use Strata\Settings\Models\SettingHistory;
+use Stratos\Settings\Events\SettingCreated;
+use Stratos\Settings\Events\SettingDeleted;
+use Stratos\Settings\Events\SettingUpdated;
+use Stratos\Settings\Models\Setting;
+use Stratos\Settings\Models\SettingHistory;
 
 class SettingObserver
 {

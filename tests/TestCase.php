@@ -3,7 +3,7 @@
 namespace Strata\Settings\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Strata\Settings\Providers\SettingsServiceProvider;
+use Stratos\Settings\Providers\SettingsServiceProvider;
 
 class TestCase extends Orchestra
 {

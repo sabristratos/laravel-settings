@@ -3,7 +3,7 @@
 namespace Strata\Settings\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Strata\Settings\Models\Setting;
+use Stratos\Settings\Models\Setting;
 
 class SettingFactory extends Factory
 {

@@ -2,10 +2,10 @@
 
 namespace Strata\Settings\Observers;
 
-use Strata\Settings\Events\UserSettingCreated;
-use Strata\Settings\Events\UserSettingDeleted;
-use Strata\Settings\Events\UserSettingUpdated;
-use Strata\Settings\Models\UserSetting;
+use Stratos\Settings\Events\UserSettingCreated;
+use Stratos\Settings\Events\UserSettingDeleted;
+use Stratos\Settings\Events\UserSettingUpdated;
+use Stratos\Settings\Models\UserSetting;
 
 class UserSettingObserver
 {

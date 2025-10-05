@@ -5,9 +5,9 @@ namespace Strata\Settings\Http\Controllers\Api;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Strata\Settings\Facades\Settings;
-use Strata\Settings\Http\Resources\SettingResource;
-use Strata\Settings\Models\Setting;
+use Stratos\Settings\Facades\Settings;
+use Stratos\Settings\Http\Resources\SettingResource;
+use Stratos\Settings\Models\Setting;
 
 class SettingsController extends Controller
 {

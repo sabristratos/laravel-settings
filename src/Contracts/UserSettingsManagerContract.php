@@ -3,7 +3,7 @@
 namespace Strata\Settings\Contracts;
 
 use Illuminate\Support\Collection;
-use Strata\Settings\Models\UserSetting;
+use Stratos\Settings\Models\UserSetting;
 
 interface UserSettingsManagerContract
 {

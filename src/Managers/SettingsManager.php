@@ -6,8 +6,8 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Validation\ValidationException;
-use Strata\Settings\Contracts\SettingsManagerContract;
-use Strata\Settings\Models\Setting;
+use Stratos\Settings\Contracts\SettingsManagerContract;
+use Stratos\Settings\Models\Setting;
 use Symfony\Component\Yaml\Yaml;
 
 class SettingsManager implements SettingsManagerContract

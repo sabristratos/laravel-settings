@@ -5,22 +5,22 @@ namespace Strata\Settings\Providers;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Strata\Settings\Console\Commands\SettingsClearCacheCommand;
-use Strata\Settings\Console\Commands\SettingsCreateCommand;
-use Strata\Settings\Console\Commands\SettingsExportCommand;
-use Strata\Settings\Console\Commands\SettingsGetCommand;
-use Strata\Settings\Console\Commands\SettingsImportCommand;
-use Strata\Settings\Console\Commands\SettingsListCommand;
-use Strata\Settings\Console\Commands\SettingsSetCommand;
-use Strata\Settings\Contracts\SettingsManagerContract;
-use Strata\Settings\Contracts\UserSettingsManagerContract;
-use Strata\Settings\Http\Middleware\ShareSettingsMiddleware;
-use Strata\Settings\Managers\SettingsManager;
-use Strata\Settings\Managers\UserSettingsManager;
-use Strata\Settings\Models\Setting;
-use Strata\Settings\Models\UserSetting;
-use Strata\Settings\Observers\SettingObserver;
-use Strata\Settings\Observers\UserSettingObserver;
+use Stratos\Settings\Console\Commands\SettingsClearCacheCommand;
+use Stratos\Settings\Console\Commands\SettingsCreateCommand;
+use Stratos\Settings\Console\Commands\SettingsExportCommand;
+use Stratos\Settings\Console\Commands\SettingsGetCommand;
+use Stratos\Settings\Console\Commands\SettingsImportCommand;
+use Stratos\Settings\Console\Commands\SettingsListCommand;
+use Stratos\Settings\Console\Commands\SettingsSetCommand;
+use Stratos\Settings\Contracts\SettingsManagerContract;
+use Stratos\Settings\Contracts\UserSettingsManagerContract;
+use Stratos\Settings\Http\Middleware\ShareSettingsMiddleware;
+use Stratos\Settings\Managers\SettingsManager;
+use Stratos\Settings\Managers\UserSettingsManager;
+use Stratos\Settings\Models\Setting;
+use Stratos\Settings\Models\UserSetting;
+use Stratos\Settings\Observers\SettingObserver;
+use Stratos\Settings\Observers\UserSettingObserver;
 
 class SettingsServiceProvider extends ServiceProvider
 {

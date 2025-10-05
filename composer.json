@@ -1,19 +1,19 @@
 {
-    "name": "strata/laravel-settings",
+    "name": "stratos/laravel-settings",
     "description": "A flexible and extensible settings management package for Laravel applications",
     "keywords": [
         "laravel",
         "settings",
         "configuration",
         "preferences",
-        "strata"
+        "stratos"
     ],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Strata",
-            "email": "support@strata.dev"
+            "name": "Mohamed Sabri Ben Chaabane",
+            "email": "sabri@stratosdigital.io"
         }
     ],
     "require": {
@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Strata\\Settings\\": "src/"
+            "Stratos\\Settings\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -39,7 +39,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Strata\\Settings\\Tests\\": "tests/",
+            "Stratos\\Settings\\Tests\\": "tests/",
             "App\\Models\\": "tests/Models/",
             "Database\\Factories\\": "database/factories/"
         }
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Strata\\Settings\\Providers\\SettingsServiceProvider"
+                "Stratos\\Settings\\Providers\\SettingsServiceProvider"
             ],
             "aliases": {
-                "Settings": "Strata\\Settings\\Facades\\Settings"
+                "Settings": "Stratos\\Settings\\Facades\\Settings"
             }
         }
     },

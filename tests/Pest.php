@@ -1,6 +1,6 @@
 <?php
 
-use Strata\Settings\Tests\TestCase;
+use Stratos\Settings\Tests\TestCase;
 
 uses(TestCase::class)->in('Feature');
 

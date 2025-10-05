@@ -3,8 +3,8 @@
 namespace Strata\Settings\Console\Commands;
 
 use Illuminate\Console\Command;
-use Strata\Settings\Facades\Settings;
-use Strata\Settings\Models\Setting;
+use Stratos\Settings\Facades\Settings;
+use Stratos\Settings\Models\Setting;
 
 use function Laravel\Prompts\confirm;
 use function Laravel\Prompts\select;

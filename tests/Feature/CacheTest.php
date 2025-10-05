@@ -2,8 +2,8 @@
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Cache;
-use Strata\Settings\Facades\Settings;
-use Strata\Settings\Models\Setting;
+use Stratos\Settings\Facades\Settings;
+use Stratos\Settings\Models\Setting;
 
 uses(RefreshDatabase::class);
 

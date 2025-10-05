@@ -3,7 +3,7 @@
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Blade;
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 uses(RefreshDatabase::class);
 

@@ -26,7 +26,7 @@ A flexible, extensible, and enterprise-ready settings management package for Lar
 ### 1. Install the package via Composer
 
 ```bash
-composer require strata/laravel-settings
+composer require stratos/laravel-settings
 ```
 
 ### 2. Publish and run migrations
@@ -311,7 +311,7 @@ return [
 The package includes comprehensive tests using Pest:
 
 ```bash
-cd packages/strata/laravel-settings
+cd packages/stratos/laravel-settings
 composer install
 vendor/bin/pest
 ```
@@ -767,4 +767,4 @@ MIT License
 
 ## Credits
 
-Built by Strata
+Built by Stratos

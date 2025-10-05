@@ -4,7 +4,7 @@ namespace Strata\Settings\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Strata\Settings\Models\UserSetting;
+use Stratos\Settings\Models\UserSetting;
 
 class UserSettingUpdated
 {

@@ -3,7 +3,7 @@
 namespace Strata\Settings\Console\Commands;
 
 use Illuminate\Console\Command;
-use Strata\Settings\Models\Setting;
+use Stratos\Settings\Models\Setting;
 
 class SettingsListCommand extends Command
 {

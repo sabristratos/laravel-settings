@@ -7,8 +7,8 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Crypt;
 use Illuminate\Validation\ValidationException;
-use Strata\Settings\Contracts\UserSettingsManagerContract;
-use Strata\Settings\Models\UserSetting;
+use Stratos\Settings\Contracts\UserSettingsManagerContract;
+use Stratos\Settings\Models\UserSetting;
 
 class UserSettingsManager implements UserSettingsManagerContract
 {

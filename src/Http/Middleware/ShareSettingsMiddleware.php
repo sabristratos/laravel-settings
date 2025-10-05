@@ -5,7 +5,7 @@ namespace Strata\Settings\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 use Symfony\Component\HttpFoundation\Response;
 
 class ShareSettingsMiddleware

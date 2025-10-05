@@ -4,7 +4,7 @@ namespace Strata\Settings\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use Strata\Settings\Models\Setting;
+use Stratos\Settings\Models\Setting;
 
 class SettingCreated
 {

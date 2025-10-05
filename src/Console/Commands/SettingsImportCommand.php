@@ -3,7 +3,7 @@
 namespace Strata\Settings\Console\Commands;
 
 use Illuminate\Console\Command;
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 class SettingsImportCommand extends Command
 {

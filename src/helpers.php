@@ -1,12 +1,12 @@
 <?php
 
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 if (! function_exists('setting')) {
     /**
      * Get or set a setting value.
      *
-     * @return mixed|\Strata\Settings\Managers\SettingsManager
+     * @return mixed|\Stratos\Settings\Managers\SettingsManager
      */
     function setting(?string $key = null, mixed $default = null): mixed
     {
@@ -22,7 +22,7 @@ if (! function_exists('user_setting')) {
     /**
      * Get or set a user setting value.
      *
-     * @return mixed|\Strata\Settings\Managers\UserSettingsManager
+     * @return mixed|\Stratos\Settings\Managers\UserSettingsManager
      */
     function user_setting(?string $key = null, mixed $default = null): mixed
     {
