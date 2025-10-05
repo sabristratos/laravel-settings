@@ -19,7 +19,7 @@ A flexible, extensible, and enterprise-ready settings management package for Lar
 - **Interactive CLI**: Beautiful interactive commands using Laravel Prompts
 - **Helpers & Directives**: Convenient helper functions and Blade directives
 - **Comprehensive Tests**: 113 tests with full coverage using Pest
-- **Laravel 12 Ready**: Built for Laravel 12 with modern PHP 8.2+ features
+- **Laravel 12 Ready**: Built for Laravel 12 with modern PHP 8.3+ features
 
 ## Installation
 
