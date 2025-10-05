@@ -1,0 +1,33 @@
+# Composer
+/vendor/
+composer.lock
+
+# Testing & Coverage
+.phpunit.result.cache
+.phpunit.cache/
+.pest/
+coverage/
+.coverage/
+
+# IDE & Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.phpstorm.meta.php
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Build Artifacts
+build/
+dist/
