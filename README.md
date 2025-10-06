@@ -49,7 +49,7 @@ php artisan vendor:publish --tag=settings-config
 #### Using the Facade
 
 ```php
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 // Set a setting
 Settings::set('site.name', 'My Application');
@@ -114,7 +114,7 @@ $apiKey = Settings::encrypted('api.key');
 #### Using the Facade
 
 ```php
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 // For authenticated user
 Settings::user()->set('theme', 'dark');
@@ -493,7 +493,7 @@ php artisan settings:clear-cache
 Efficiently set, get, or delete multiple settings at once.
 
 ```php
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 // Set multiple settings
 Settings::setBulk([
@@ -530,7 +530,7 @@ Settings::setWithMetadataBulk([
 Settings can have validation rules that are automatically applied.
 
 ```php
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 // Set with validation rules
 Settings::setWithMetadata(
@@ -556,7 +556,7 @@ $rules = $setting->validation_rules; // ['required', 'email', 'max:255']
 Settings support labels, descriptions, and options in multiple languages.
 
 ```php
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 // Set multilingual labels and descriptions
 Settings::setWithMetadata(
@@ -589,7 +589,7 @@ $description = setting_description('site.name'); // Returns: "Le nom de votre si
 Track all setting changes with rollback capability.
 
 ```php
-use Strata\Settings\Facades\Settings;
+use Stratos\Settings\Facades\Settings;
 
 // Enable audit trail in config
 'audit' => [
@@ -622,12 +622,12 @@ React to setting changes with Laravel events.
 
 ```php
 // Available Events
-use Strata\Settings\Events\SettingCreated;
-use Strata\Settings\Events\SettingUpdated;
-use Strata\Settings\Events\SettingDeleted;
-use Strata\Settings\Events\UserSettingCreated;
-use Strata\Settings\Events\UserSettingUpdated;
-use Strata\Settings\Events\UserSettingDeleted;
+use Stratos\Settings\Events\SettingCreated;
+use Stratos\Settings\Events\SettingUpdated;
+use Stratos\Settings\Events\SettingDeleted;
+use Stratos\Settings\Events\UserSettingCreated;
+use Stratos\Settings\Events\UserSettingUpdated;
+use Stratos\Settings\Events\UserSettingDeleted;
 
 // Listen to events
 Event::listen(SettingUpdated::class, function ($event) {

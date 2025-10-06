@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Strata\Settings\Http\Controllers\Api\SettingsController;
+use Stratos\Settings\Http\Controllers\Api\SettingsController;
 
 Route::prefix(config('settings.api.prefix', 'api/settings'))
     ->middleware(config('settings.api.middleware', ['api']))

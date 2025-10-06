@@ -64,7 +64,7 @@ class Setting extends Model
      */
     protected static function newFactory()
     {
-        return \Strata\Settings\Database\Factories\SettingFactory::new();
+        return \Stratos\Settings\Database\Factories\SettingFactory::new();
     }
 
     /**

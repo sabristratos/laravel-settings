@@ -483,7 +483,7 @@ class SettingsManager implements SettingsManagerContract
      */
     public function getHistory(string $key, int $limit = 50): Collection
     {
-        $historyModel = \Strata\Settings\Models\SettingHistory::class;
+        $historyModel = \Stratos\Settings\Models\SettingHistory::class;
 
         return $historyModel::forKey($key)
             ->recent()
@@ -496,7 +496,7 @@ class SettingsManager implements SettingsManagerContract
      */
     public function getAllHistory(int $limit = 100): Collection
     {
-        $historyModel = \Strata\Settings\Models\SettingHistory::class;
+        $historyModel = \Stratos\Settings\Models\SettingHistory::class;
 
         return $historyModel::recent()
             ->limit($limit)
@@ -508,7 +508,7 @@ class SettingsManager implements SettingsManagerContract
      */
     public function restoreToVersion(string $key, int $historyId): Setting
     {
-        $historyModel = \Strata\Settings\Models\SettingHistory::class;
+        $historyModel = \Stratos\Settings\Models\SettingHistory::class;
 
         $history = $historyModel::findOrFail($historyId);
 

@@ -64,7 +64,7 @@ class UserSetting extends Model
      */
     protected static function newFactory()
     {
-        return \Strata\Settings\Database\Factories\UserSettingFactory::new();
+        return \Stratos\Settings\Database\Factories\UserSettingFactory::new();
     }
 
     /**
