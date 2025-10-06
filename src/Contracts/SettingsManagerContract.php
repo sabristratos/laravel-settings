@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Contracts;
+namespace Stratos\Settings\Contracts;
 
 use Illuminate\Support\Collection;
 use Stratos\Settings\Models\Setting;

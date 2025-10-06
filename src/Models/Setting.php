@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Models;
+namespace Stratos\Settings\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

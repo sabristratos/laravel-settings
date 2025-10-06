@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Http\Middleware;
+namespace Stratos\Settings\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

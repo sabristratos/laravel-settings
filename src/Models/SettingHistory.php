@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Models;
+namespace Stratos\Settings\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

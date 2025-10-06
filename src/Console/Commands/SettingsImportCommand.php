@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Console\Commands;
+namespace Stratos\Settings\Console\Commands;
 
 use Illuminate\Console\Command;
 use Stratos\Settings\Facades\Settings;

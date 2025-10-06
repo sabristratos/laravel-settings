@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Events;
+namespace Stratos\Settings\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

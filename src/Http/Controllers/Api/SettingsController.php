@@ -1,6 +1,6 @@
 <?php
 
-namespace Strata\Settings\Http\Controllers\Api;
+namespace Stratos\Settings\Http\Controllers\Api;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
