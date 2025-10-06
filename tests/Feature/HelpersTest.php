@@ -37,12 +37,12 @@ it('can use user_setting helper with default value', function () {
 });
 
 it('returns settings manager when setting helper called without arguments', function () {
-    expect(setting())->toBeInstanceOf(\Strata\Settings\Managers\SettingsManager::class);
+    expect(setting())->toBeInstanceOf(\Stratos\Settings\Managers\SettingsManager::class);
 });
 
 it('returns user settings manager when user_setting helper called without arguments', function () {
     $user = User::factory()->create();
     $this->actingAs($user);
 
-    expect(user_setting())->toBeInstanceOf(\Strata\Settings\Managers\UserSettingsManager::class);
+    expect(user_setting())->toBeInstanceOf(\Stratos\Settings\Managers\UserSettingsManager::class);
 });
