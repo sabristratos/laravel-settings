@@ -2,7 +2,7 @@
 
 ![logo](https://laravel.com/img/logomark.min.svg ':size=120')
 
-# Laravel Settings <small>v1.0</small>
+# Laravel Settings <small>v1.0.0</small>
 
 > A flexible, enterprise-ready settings management package for Laravel applications.
 
