@@ -1,7 +1,7 @@
 <!-- _sidebar.md -->
 
 * **Getting Started**
-  * [Home](/)
+  * [Home](#/)
   * [Installation](installation.md)
   * [Basic Usage](usage.md)
   * [User Settings](user-settings.md)
